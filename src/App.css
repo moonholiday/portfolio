@@ -1,0 +1,53 @@
+html {
+  --background: #282c33;
+  --gray: #abb2bf;
+  --primary: #c778dd;
+  --white: #ffffff;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--white);
+}
+
+.container {
+  width: 1024px;
+  padding: 32px 0px 20px 0px;
+  margin: 50px auto;
+  font-size: 32px;
+}
+
+nav {
+  display: flex;
+  width: 1024px;
+  padding: 32px 0px 8px 0px;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: auto;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+}
+
+button {
+  display: inline-flex;
+  padding: 8px 16px;
+  margin: 20px 0px;
+  align-items: flex-start;
+  gap: 10px;
+  background-color: var(--background);
+  color: var(--white);
+  border: 1px solid var(--primary, #c778dd);
+}
+
+.accent {
+  color: var(--primary);
+}
