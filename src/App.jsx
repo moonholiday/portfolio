@@ -2,7 +2,7 @@ import "./App.css";
 import { Route } from "./route";
 
 function App() {
-  return <Route />;
+    return <Route />;
 }
 
 export default App;

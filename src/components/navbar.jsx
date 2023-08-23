@@ -5,16 +5,16 @@ const Navbar = () => {
         sakshyam
         <ul>
           <li>
-            <span class="accent">#</span>Home
+            <span className="accent">#</span>Home
           </li>
           <li>
-            <span class="accent">#</span>Works
+            <span className="accent">#</span>Works
           </li>
           <li>
-            <span class="accent">#</span>About me
+            <span className="accent">#</span>About me
           </li>
           <li>
-            <span class="accent">#</span>Contacts
+            <span className="accent">#</span>Contacts
           </li>
         </ul>
       </nav>
